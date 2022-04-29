@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: 'Water Brush', cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .7);
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
