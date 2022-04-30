@@ -8,8 +8,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     height: 100vh;
     background: url(https://www.worqambatour.com/img/carousel/68985649_147505649784890_8216401798013706936_n_1000x667.jpg) no-repeat center center;
@@ -20,7 +18,9 @@ body {
 
 /* mobie header */
 
-.mobile-header {
+.navbar {
+  height: 90px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,19 +28,24 @@ body {
   padding-right: 10%;
 }
 
-.logo {
+.navbar-brand {
     font-family: 'Water Brush', cursive;
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 20px 0;
 }
 
-#open {
+.navbar-toggler {
     font-size: 36px;
     font-weight: 700;
 }
 
-.sidebar-menu {
+
+.nav-list {
+    display: none;
+}
+
+.nav-side-menu {
     margin: 0 0 auto auto;
     height: 400px;
     width: 50vw;
@@ -48,7 +53,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 3;
+    z-index: 2;
     padding-top: 20px;
     padding-left: 20px;
     display: none; 
@@ -62,31 +67,25 @@ body {
     color: white;
 }
 
-.sidebar-menu li {
+.nav-side-menu li {
     margin-top:  50px;
 }
 
-.sidebar-menu a {
+.nav-side-menu a {
     color: white
 }
 
-
-li {
+nav li, .nav-side-menu li {
     list-style: none;
 }
 
-ul a {
+.nav-side-menu a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
-
-nav {
-    display: none;
-}
-
 
 /* Home section content */
 
@@ -100,29 +99,16 @@ nav {
     font-weight: 300;
 }
 
-.read-more-btn {
-    font-size: 16px;
-    font-weight: 900;
-    margin: 0 auto;
-    padding: 10px 0;
-    width: 100px;
-    height: 40px;
-    border: solid 1px transparent;
-    border-radius: 10px;
-    background-color: rgb(243, 241, 231);
-    color: rgb(10, 10, 59);
-    text-align: center;
-}
-
 .lucy-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .lucy-image img {
     height: 200px;
     width: 60%;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* footer */
@@ -139,7 +125,60 @@ footer {
     bottom: 0;
 }
 
-footer .logo {
+footer .navbar-brand {
     font-size: 20px;
     font-weight: 500;
 }
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+
+    .navbar-brand {
+        font-size: 3.5rem;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+
+    
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 20px;
+        right: 0;
+        z-index: 1;
+    }
+
+    .nav-list a {
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .about-lucy {
+        margin: 100px auto;
+    }
+
+    .about-lucy p {
+       font-size: 30px;
+       font-weight: 500;
+    }
+
+   
+    .lucy-image img {
+        height: 450px;
+        width: 80%;
+    }
+
+  }
