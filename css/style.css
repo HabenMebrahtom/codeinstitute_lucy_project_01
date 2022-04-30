@@ -11,10 +11,7 @@
 
 
 body {
-    height: auto !important;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
+    height: 100vh;
     background: url(https://www.worqambatour.com/img/carousel/68985649_147505649784890_8216401798013706936_n_1000x667.jpg) no-repeat center center;
     background-size: cover;
     color: white;
@@ -103,18 +100,18 @@ nav {
     font-weight: 300;
 }
 
-.discover-btn {
-    font-weight: 700;
+.read-more-btn {
+    font-size: 16px;
+    font-weight: 900;
     margin: 0 auto;
+    padding: 10px 0;
     width: 100px;
-    height: 100px;
-    border: solid 1px white;
-    border-radius: 50%;
-    background-color: white;
-    color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 40px;
+    border: solid 1px transparent;
+    border-radius: 10px;
+    background-color: rgb(243, 241, 231);
+    color: rgb(10, 10, 59);
+    text-align: center;
 }
 
 .lucy-image {
