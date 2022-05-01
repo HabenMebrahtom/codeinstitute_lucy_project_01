@@ -222,7 +222,7 @@ footer {
     }
 
     .nav-list a:nth-child(1n+1):hover {
-        color: yellow;
+        border-bottom: 3px solid white;
     }
 
     .navbar-toggler {
@@ -255,10 +255,6 @@ footer {
     .lucy-image img {
         height: 400px;
         width: 100%;
-    }
-
-    .lucy-image img:hover {
-        height: 500px;
     }
   }
 
