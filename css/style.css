@@ -119,15 +119,19 @@ footer {
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
     position: absolute;
     bottom: 0;
 }
 
-footer .navbar-brand {
-    font-size: 20px;
+.socialmedia-links {
+    font-size: 30px;
     font-weight: 500;
+}
+
+.socialmedia-links i {
+    margin-right: 20px;
 }
 
 
@@ -162,6 +166,10 @@ footer .navbar-brand {
         color: white;
     }
 
+    .nav-list a:nth-child(1n+1):hover {
+        color: yellow;
+    }
+
     .navbar-toggler {
         display: none;
     }
@@ -181,18 +189,10 @@ footer .navbar-brand {
         width: 80%;
     }
 
-    footer {
-        height: 150px;
-    }
-
   }
 
 
   @media only screen and  (min-device-width: 1024px) {
-
-      header {
-          height: 200px;
-      }
 
     .navbar-brand {
         font-size: 5rem;
@@ -200,12 +200,11 @@ footer .navbar-brand {
         margin-top: 60px;
     }
 
-    
     .nav-list {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 150px;
+        height: 100px;
         width: 60%;
         background-color: rgba(0, 0, 0, 0.6);
         position: absolute;
@@ -215,11 +214,15 @@ footer .navbar-brand {
     }
 
     .nav-list a {
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 700;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
+    }
+
+    .nav-list a:nth-child(1n+1):hover {
+        color: yellow;
     }
 
     .navbar-toggler {
@@ -228,10 +231,10 @@ footer .navbar-brand {
 
 
     .container {
-        margin-top: 200px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-top: 100px;
     }
 
     .about-lucy {
@@ -239,22 +242,23 @@ footer .navbar-brand {
     }
 
     .about-lucy p {
-       font-size: 35px;
+       font-size: 20px;
        font-weight: 500;
        width: 100%;
     }
+
     
     .lucy-image {
-        width: 50%;
+        width:40%;
     }
    
     .lucy-image img {
-        height: 500px;
+        height: 400px;
         width: 100%;
     }
 
-    footer {
-        height: 200px;
+    .lucy-image img:hover {
+        height: 500px;
     }
   }
 
