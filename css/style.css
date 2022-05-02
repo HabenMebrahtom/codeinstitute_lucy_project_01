@@ -95,7 +95,7 @@ nav li, .nav-side-menu li {
 
  .about-lucy {
    width: 80%;
-   margin: 20% auto 5% auto;
+   margin: 10% auto 5% auto;
  }
 
 .about-lucy p {
@@ -110,11 +110,11 @@ nav li, .nav-side-menu li {
     text-decoration: none;
     color: white;
     margin-left: 5px;
-    padding: 1px 2px;
+    padding: 2px 3px;
 }
 
 .about-lucy a:hover {
-    color: red;
+      background-color: blue;
 }
 
 .lucy-image {
@@ -230,6 +230,38 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
+
+/* about */
+
+#about {
+    background-image: none;
+    background-color: rgb(219, 213, 213);
+}
+
+#about .navbar-brand a {
+    color: black;
+}
+
+.about-container {
+    color: black;
+    padding: 10%;
+}
+
+.about-container p {
+    margin: 10px auto;
+}
+
+#lucy-skeleton {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+#lucy-skeleton img {
+    width: 100%;
+    height: 100%;
+}
 
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
