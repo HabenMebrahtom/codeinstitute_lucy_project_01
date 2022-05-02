@@ -10,7 +10,7 @@
 
     <title>Gallary</title>
 </head>
-<body id="gallary">
+<body id="visit">
     <header>
         <nav>
            <div class="navbar">
@@ -22,7 +22,7 @@
                </div>    
            </div>
            <div class="nav-list">
-                <a href="#"> Home</a>
+                <a href="#" id="home"> Home</a>
                 <a href="#"> Gallary</a>
                 <a href="#"> About Lucy</a>
                 <a href="#"> Visit Lucy</a>
@@ -33,33 +33,45 @@
        <div class="nav-side-menu" id="sidebar-container">
            <i class="fa-solid fa-circle-xmark" id="close"></i>
            <ul>
-               <li><a href="#"><i class="fa-solid fa-house-chimney"></i> Home</a> </li>
-               <li><a href="#"><i class="fa-regular fa-images"></i> Gallary</a></li>
+               <li><a href="#"><i class="fa-solid fa-house-chimney" ></i> Home</a> </li>
                <li><a href="#"><i class="fa-brands fa-readme"></i> About Lucy</a></li>
-               <li><a href="#"><i class="fa-solid fa-eye"></i> Visit Lucy</a></li>
+               <li><a href="visit.html"><i class="fa-solid fa-eye"></i> Visit Lucy</a></li>
            </ul>
        </div>
    </header>
-   <section class="gallary-container">
-          <div class="card">
-               <img src="./images/lucy-2.jpg" alt="Lucy ">
+   <section class="visit-container">
+          <div class="address">
+                <div>
+                    <h2>Adress</h2>
+                    <p>2QQ6+6P4, Addis Ababa Arada, Ethiopia</p>
+                </div>
+                <div>
+                    <h2>Visit hours</h2>
+                    <p>All Days from 9:00am - 5:00pm</p>
+                </div>
           </div>
-          <div class="card">
-               <img src="./images/lucy-3.jpg" alt="Lucy ">
+          <div>
+              <form action="#">
+                  <h2>Book to visit</h2>
+                  <fieldset>
+                      <div>
+                          <label for="fname">First Name</label>
+                          <input type="text" name="first_name" id="fname" class="input-field">
+                      </div>
+                      <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="first_name" id="lname" class="input-field">
+                      </div>
+                      <div>
+                         <label for="b-date">Time</label>
+                         <input type="time" name="booking_date" id="b-date" min="9:00" max="17:00" class="input-field">
+                      </div>
+                  </fieldset>
+                  <div class="submit-btn">
+                    <input type="submit" name="" id="submit" value="Submit">
+                  </div>
+              </form>
           </div>
-          <div class="card">
-               <img src="./images/lucy-4.jpg" alt="Lucy ">
-          </div>
-          <div class="card">
-               <img src="./images/lucy-5.jpg" alt="Lucy ">
-           </div>
-           <div class="card">
-               <img src="./images/lucy-6.jpg" alt="Lucy ">
-           </div>
-           <div class="card">
-               <img src="./images/lucy-7.jpg" alt="Lucy ">
-           </div>
-
    </section>
    <footer>
        <div>

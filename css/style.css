@@ -9,7 +9,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background: url(https://www.worqambatour.com/img/carousel/68985649_147505649784890_8216401798013706936_n_1000x667.jpg) no-repeat center center;
     background-size: cover;
     color: white;
@@ -135,6 +135,96 @@ footer {
 }
 
 
+/* visit styles */
+
+#visit {
+   background: url("https://media-cdn.tripadvisor.com/media/photo-m/1280/13/d5/04/0e/sulphur-lakes-of-dallol.jpg") no-repeat center center;
+   background-size: cover;
+}    
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.visit-container {
+    margin-top: 50px;
+    color: black;
+}
+
+.address {
+    text-align: center;
+}
+
+.address div {
+    margin-bottom: 20px;
+}
+
+.visit-container h2 {
+    text-transform: uppercase;
+}
+
+.address p {
+    font-size: 20px;
+}
+
+form {
+    height: 270px;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+form h2 {
+   text-align: center;
+}
+
+fieldset {
+    border: none;
+    margin-top: 5px;
+}
+
+fieldset div {
+    margin-top: 5px;
+}
+
+input[type="text"], input[type="time"] {
+    width: 100%;
+    height: 25px;
+    margin-top: 3px;
+    background-color: rgb(214, 209, 209);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    width: 70px;
+    height: 30px;
+    border: 0;
+    text-align: center;
+    background-color: rgb(235, 145, 67);
+    border-radius: 5px;
+}
+
+
+
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
 
 
@@ -161,13 +251,15 @@ footer {
     .nav-list a {
         font-size: 20px;
         font-weight: 500;
+        height: 100px;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
+        padding-top: 40px;
     }
 
     .nav-list a:nth-child(1n+1):hover {
-        color: yellow;
+        border-bottom:  3px solid white;
     }
 
     .navbar-toggler {
@@ -187,6 +279,26 @@ footer {
     .lucy-image img {
         height: 450px;
         width: 80%;
+    }
+ 
+
+    /* visit style */
+
+    .visit-container {
+         width: 90%;
+         margin: 50px auto;
+         flex-wrap: wrap;
+    }
+
+    .card {
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+    }
+    
+    .card img {
+        width: 100%;
+        height: 100%;
     }
 
   }
@@ -216,13 +328,15 @@ footer {
     .nav-list a {
         font-size: 20px;
         font-weight: 700;
+        height: 100px;
+        padding-top: 40px;
         text-decoration: none;
         text-transform: uppercase;
         color: white;
     }
 
     .nav-list a:nth-child(1n+1):hover {
-        border-bottom: 3px solid white;
+        border-bottom: 4px solid white;
     }
 
     .navbar-toggler {
@@ -256,6 +370,31 @@ footer {
         height: 400px;
         width: 100%;
     }
+
+
+    /* visit style */
+
+    .visit-container {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+   }
+
+   .card {
+       width: 300px;
+       height: 300px;
+       margin-right: 20px;
+   }
+   
+   .card img {
+       width: 100%;
+       height: 100%;
+   }
+
+
+
   }
 
 
