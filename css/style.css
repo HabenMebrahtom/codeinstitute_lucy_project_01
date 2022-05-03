@@ -206,7 +206,7 @@ fieldset div {
     margin-top: 5px;
 }
 
-input[type="text"], input[type="time"] {
+.input-field {
     width: 100%;
     height: 25px;
     margin-top: 3px;
@@ -353,7 +353,7 @@ input[type="submit"] {
         font-size: 26px;
     }
     
-    input[type="text"], input[type="time"] {
+    input[type="text"] , input[type="date"], input[type="time"] {
         width: 100%;
         height: 30px;
         margin-top: 5px;
