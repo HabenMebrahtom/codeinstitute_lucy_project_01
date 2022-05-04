@@ -31,16 +31,16 @@ body {
 
 .navbar-brand a {
     font-family: 'Water Brush', cursive;
-    font-weight: 900;
-    font-size: 4rem;
+    font-weight: 700;
+    font-size: 2rem;
     padding: 20px 0;
     text-decoration: none;
     color: white;
 }
 
 .navbar-toggler {
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 
@@ -92,6 +92,10 @@ nav li, .nav-side-menu li {
 
 /* Home section content */
  
+.container {
+    font-family: 'Saira Condensed',
+    sans-serif;
+}
 
  .about-lucy {
    width: 80%;
@@ -120,7 +124,7 @@ nav li, .nav-side-menu li {
 .lucy-image {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: items;
 }
 
 .lucy-image img {
@@ -160,7 +164,7 @@ footer {
 }    
 
 .visit-container {
-    margin-top: 50px;
+    margin-top: 20px;
     color: black;
 }
 
@@ -169,20 +173,20 @@ footer {
 }
 
 .address div {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Oleo Script', cursive;
 }
 
-.visit-container h2 {
+.visit-container h3 {
     text-transform: uppercase;
 }
 
 .address p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 form {
-    height: 270px;
+    height: 320px;
     width: 80%;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -192,7 +196,7 @@ form {
     padding: 20px;
 }
 
-form h2 {
+form h3 {
    text-align: center;
    font-family: 'Oleo Script', cursive;
 }
@@ -310,7 +314,7 @@ input[type="submit"] {
     }
 
     .about-lucy p {
-       font-size: 30px;
+       font-size: 26px;
        font-weight: 500;
     }
 
@@ -425,29 +429,31 @@ input[type="submit"] {
 
 
     .container {
-        padding: 10%;
+        margin: 10% auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+
+    }
+
+    .lucy-image {
+        flex: 1;
+    }
+
+    .lucy-image img {
+         width: 400px;
+         height: 400px;
+         margin-left: 10%;
     }
 
     .about-lucy {
-       width: 40%;
-       float: left;
+        flex: 1;
     }
 
     .about-lucy p {
-       font-size: 20px;
-       font-weight: 500;
-       width: 100%;
-    }
-
-    
-    .lucy-image {
-        width:50%;
-        padding-left: 10%;
-    } 
-   
-    .lucy-image img {
-        height: 400px;
-        width: 100%;
+        font-size: 30px;
     }
 
 
@@ -455,8 +461,8 @@ input[type="submit"] {
 
     
     .visit-container {
-        width: 90%;
-        margin: 10% auto;
+        width: 80%;
+        margin: 5% auto;
         padding: 20px;
         display: flex;
         justify-content: space-evenly;
@@ -467,8 +473,8 @@ input[type="submit"] {
 
 
     form {
-       width: 500px;
-       height: 400px;
+       width: 450px;
+       height: 450px;
        margin-top: 20px;
    }
     
