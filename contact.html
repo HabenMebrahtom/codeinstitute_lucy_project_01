@@ -31,7 +31,7 @@
             </div>
             <div class="nav-list">
                 <a href="index.html" id="home"> Home</a>
-                <a href="about.html"> About Lucy</a>
+                <a href="about.html"> About </a>
                 <a href="event.html"> event</a>
                 <a href="contact.html"> contact us</a>
             </div>
@@ -47,27 +47,44 @@
                 <li><a href="contact.html"><i class="fa-solid fa-eye"></i> contact us</a></li>
             </ul>
         </div>
+
+        <main class="main-contact">
+            <div class="main-text white-text">
+                Contact Us
+            </div>
+        </main>
     </header>
     <section class="visit-container">
+
+        <div class="address-container">
+              <div class="museum-img">
+                  <img src="./images/museum.jpg" alt="Ethiopian National Museum">
+              </div>
+              <div class="address">
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i> Address: 2QQ6+6P4, Addis Ababa Arada, Ethiopia
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-phone-flip"></i> Phone: +251 11 111 7150
+                  </p>
+              </div>
+        </div>
         <div class="form">
             <form action="#">
                 <h3>Book to visit</h3>
                 <fieldset>
+                    
                     <div>
-                        <label for="fname">First Name</label>
-                        <input type="text" name="first_name" id="fname" class="input-field" required>
+                        <input type="text" name="full_name" id="full-name" class="input-field" placeholder="Full Name" required>
                     </div>
                     <div>
-                        <label for="lname">Last Name</label>
-                        <input type="text" name="last_name" id="lname" class="input-field" required>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="E-mail" required>
+                    </div>
+                    <div> 
+                        <input type="text" name="subject" id="subject" class="input-field" placeholder="Subject" required>
                     </div>
                     <div>
-                        <label for="b-date">Date</label>
-                        <input type="date" name="booking_date" id="b-date" class="input-field" required>
-                    </div>
-                    <div>
-                        <label for="b-time">Time</label>
-                        <input type="time" name="booking_time" id="b-time" class="input-field" required>
+                        <textarea name="comments" id="comment" cols="30" rows="10" placeholder="Write your message here ..."></textarea>
                     </div>
                 </fieldset>
                 <div class="submit-btn">
