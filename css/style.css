@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +97,7 @@ header {
 }
 
 .lucy-title p {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: cursive;
     text-transform: uppercase;   
     text-align: center;
     font-size: 26px;
