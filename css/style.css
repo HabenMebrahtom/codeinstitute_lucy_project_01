@@ -652,15 +652,20 @@ footer i:hover {
 
     /* about */
     .main-about {
-        font-size: 20px;
+        font-size: 28px;
         height: 150px;
         text-align: center;
-        margin-top: 30%;
+        margin-top: 20%;
     }
     
-    #lucy-skeleton {
-        width: 90%;
-        height: 300px;
+    #lucy-skeleton img {
+        width: 320px;
+        height: 370px;
+        margin-right: 30px;
+    }
+
+    .about-container p {
+        margin-bottom: 10px;
     }
 }
 
