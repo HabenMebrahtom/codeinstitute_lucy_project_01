@@ -25,7 +25,7 @@ body {
     color: white;
 }
 
-#about, #event {
+#about, #event, #contact {
     background: url(../images/background-image.jpg) no-repeat center center;
     background-size: cover;
     color: white;
@@ -215,7 +215,7 @@ footer i:hover {
     color: black;
 }
 
-.main-about {
+.main {
     text-transform: uppercase;
     width: 70%;
     height: 200px;
@@ -251,3 +251,392 @@ footer i:hover {
 
 /* event */
 
+.card{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 10%;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+   .navbar {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-right: 10%;
+    }
+
+    .navbar-brand a {
+        font-size: 30px;
+        padding-left: 10%;
+
+    }
+
+   .navbar-toggler {
+       display: block;
+       font-size: 24px;
+   }
+
+   .nav-list {
+       display: none;
+   }
+
+   .nav-side-menu {
+       width: 100%;
+       height: 400px;
+       background-color: rgba(0, 0, 0, 0.5);
+
+       position: absolute;
+       top: 0;
+       right: 0;
+       z-index: 2;
+   }
+
+   .main-container {
+       display: block;
+   }
+
+   .lucy-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .lucy-image img {
+       width:100px;
+       height: 100px;
+   }
+
+   .lucy-title p {
+       font-size: 16px;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+
+   .container {
+       display: block;
+   }
+
+   .image-border {
+       width: 250px;
+       height: 300px;
+   }
+
+   .container-body h4 {
+        font-size: 24px;
+        text-align: center;
+   } 
+
+   .container-body p {
+       font-size: 16px;
+   }
+
+   .bold-text {
+       font-weight: 500;
+   }
+
+   .explore {
+       font-size: 18px;
+       width: 60px;
+       height: 35px;
+   }
+
+    
+
+   footer i {
+       font-size: 18px;
+       font-weight: 300;
+       margin-left: 10px;
+   }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10%;
+    }
+    
+    .navbar-brand a {
+        font-size: 34px;
+        padding-left: 10%;
+    
+    }
+    
+    .navbar-toggler {
+        display: block;
+        font-size: 34px;
+    }
+    
+    .nav-list {
+        display: none;
+    }
+    
+    .nav-side-menu {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+    
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+    
+    .main-container {
+        display: block;
+    }
+    
+    .lucy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10PX;
+    }
+    
+    .lucy-image img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .lucy-title p {
+        font-size: 22px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .container {
+        display: block;
+    }
+    
+    .image-border {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .container-body h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .container-body p {
+        font-size: 18px;
+    }
+    
+    .bold-text {
+        font-weight: 500;
+    }
+    
+    .explore {
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+    }
+    
+
+    footer i {
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10%;
+    }
+
+    .navbar-brand a {
+        font-size: 34px;
+        padding-left: 10%;
+
+    }
+
+    .navbar-toggler {
+        display: block;
+        font-size: 34px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-side-menu {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .main-container {
+        display: block;
+    }
+
+    .lucy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10PX;
+    }
+
+    .lucy-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .lucy-title p {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .image-border {
+        width: 400px;
+        height: 450px;
+    }
+
+    .container-body h4 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container-body p {
+        font-size: 22px;
+    }
+
+    .bold-text {
+        font-weight: 700;
+    }
+
+    .explore {
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+        margin: auto;
+    }
+
+
+    footer i {
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10%;
+    }
+
+    .navbar-brand a {
+        font-size: 34px;
+        padding-left: 10%;
+
+    }
+
+
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-side-menu {
+        width: 100%;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .main-container {
+        display: block;
+    }
+
+    .lucy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10PX;
+    }
+
+    .lucy-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .lucy-title p {
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .image-border {
+        width: 400px;
+        height: 450px;
+    }
+
+    .container-body h4 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container-body p {
+        font-size: 22px;
+    }
+
+    .bold-text {
+        font-weight: 700;
+    }
+
+    .explore {
+        font-size: 20px;
+        width: 80px;
+        height: 40px;
+        margin: auto;
+    }
+
+
+    footer i {
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 20px;
+    }
+}
