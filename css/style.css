@@ -35,6 +35,7 @@ body {
 header {
     width: 100%;
     height: 50vh;
+    padding-bottom: 10vh;
 }
 
 .navbar-brand  {
@@ -108,8 +109,8 @@ header {
 
 .container {
     display: flex;
-    margin-top: 40px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 160px;
 }
 
 
@@ -412,8 +413,8 @@ footer i:hover {
     }
     
     .lucy-image img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     
     .lucy-title p {
@@ -504,8 +505,8 @@ footer i:hover {
     }
 
     .lucy-image img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 
     .lucy-title p {
@@ -551,25 +552,13 @@ footer i:hover {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 600px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-right: 10%;
-    }
-
+@media screen and (min-width: 601px) and (max-width: 800px) {
+   
     .navbar-brand a {
-        font-size: 34px;
+        font-size: 38px;
         padding-left: 10%;
-
     }
 
-
-
-    .nav-list {
-        display: none;
-    }
 
     .nav-side-menu {
         width: 100%;
@@ -594,14 +583,12 @@ footer i:hover {
     }
 
     .lucy-image img {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
 
     .lucy-title p {
-        font-size: 20px;
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 26px;
     }
 
     .container {
@@ -609,30 +596,29 @@ footer i:hover {
     }
 
     .image-border {
-        width: 400px;
-        height: 450px;
+        width: 450px;
+        height: 500px;
     }
 
     .container-body h4 {
-        font-size: 32px;
+        font-size: 40px;
         text-align: center;
     }
 
-    .container-body p {
-        font-size: 22px;
+    .bold-text {
+        font-weight: 900;
     }
 
-    .bold-text {
-        font-weight: 700;
+    .container-body p {
+        font-size: 26px;
     }
 
     .explore {
-        font-size: 20px;
-        width: 80px;
-        height: 40px;
+        font-size: 24px;
+        width: 100px;
+        height: 50px;
         margin: auto;
     }
-
 
     footer i {
         font-size: 30px;
@@ -640,3 +626,55 @@ footer i:hover {
         margin-left: 20px;
     }
 }
+
+    @media screen and (min-width: 801px) and (max-width: 1024px) {
+    
+        .navbar-brand a {
+            font-size: 48px;
+            padding-left: 5%;
+        }
+    
+    
+        .main-container {
+            display: block;
+        }
+    
+        .lucy-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10PX;
+        }
+    
+        .lucy-image img {
+            width: 300px;
+            height: 300px;
+        }
+    
+        .lucy-title p {
+            font-size: 26px;
+        }
+    
+        .container {
+            display: block;
+        }
+    
+        .image-border {
+            width: 450px;
+            height: 500px;
+        }
+    
+        .container-body h4 {
+            font-size: 40px;
+            text-align: center;
+        }
+    
+        .bold-text {
+            font-weight: 900;
+        }
+    
+        .container-body p {
+            font-size: 30px;
+        }
+    
+    }
