@@ -1,7 +1,7 @@
 # Lucy Webpage
 
 Lucy website is an informational website about the 3.2 million years old ape found in Afar region of Ethiopia. This old mummy preserved in Ethiopian national museum in Addis-Abeba. 
-The users can get a valuable information about the mummy. Additionally for those who like to visit personally or participate in the events of the museum, this website gives them a direct an address and contact information about the museum or users can contact the museum through the form by writing their comments in the website.
+The users can get a valuable information about Lucy and recent human discovery for old mummy. Additionally for those who like to visit personally or participate in the events of Ethiopian National Museum, this website can give them a direct contact address and information about the events. If users want more information, they can contact the museum through the form by writing their comments in the website.
 
 ![Lucy Github page responsive performance](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/images/Screenshot%20.png)
 
@@ -16,5 +16,5 @@ The users can get a valuable information about the mummy. Additionally for those
 
   - Navigation is inside the header.
   - The name(logo) of Lucy website is at the left top corner of the website.
-  - The navigation list 
+  - The navigation list has four list with Home, Event, About and Contact Us.
  
