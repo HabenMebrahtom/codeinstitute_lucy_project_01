@@ -251,7 +251,7 @@ footer i:hover {
     color: black;
 }
 
-.main-about, .main-contact {
+.main-about, .main-contact, .main-event {
    font-size: 40px;
     width: 100%;
     height: 200px;
@@ -288,25 +288,27 @@ footer i:hover {
 
 /* event */
 
-.card{
-    width: 350px;
-    height: 350px;
-    position: relative;
+.event-container {
+    padding: 50px;
 }
 
+.card{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 .card img {
-    height: 100%;
+    height: 50%;
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-body {
-    background-color: white;
-    height: 100px;
-    width: 80%;
-    margin: auto;
-    position: absolute;
-    bottom: 10%;
+    text-align: center;
+
 }
 
 /*contact*/
@@ -326,8 +328,23 @@ footer i:hover {
     align-items: center;
 }
 
+.address p {
+    margin-bottom: 20px;
+}
+
+.address i {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 form {
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin-top: 50px;
 }
@@ -393,6 +410,7 @@ input[type="submit"]  {
        display: none;
    }
 
+
    .main-container {
        display: block;
    }
@@ -416,6 +434,7 @@ input[type="submit"]  {
 
    .container {
        display: block;
+       padding-top: 20px;
    }
 
    .image-border {
