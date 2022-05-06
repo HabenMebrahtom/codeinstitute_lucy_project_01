@@ -561,9 +561,6 @@ input[type="submit"]  {
         height: 30vh;
     }
 
-    #index {
-        height: 50vh;
-    }
 
     .navbar {
         display: flex;
