@@ -28,6 +28,8 @@ body {
 #about, #event, #contact {
     background: url(../images/background-image.jpg) no-repeat center center;
     background-size: cover;
+    font-family: 'Ubuntu',
+    sans-serif
     }
 
 
