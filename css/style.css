@@ -35,8 +35,7 @@ body {
 
 header {
     width: 100%;
-    height: 50vh;
-    padding-bottom: 10vh;
+    height: 50vh;  
 }
 
 .navbar-brand  {
@@ -558,7 +557,7 @@ input[type="submit"]  {
 @media screen and (min-width: 321px) and (max-width: 480px){
 
     #event, #about, #contact {
-        height: 30vh;
+        height: 32vh;
     }
 
 
@@ -794,7 +793,7 @@ input[type="submit"]  {
 @media screen and (min-width: 601px) and (max-width: 800px) {
 
     header {
-        height: 30vh;
+        height: 36vh;
     }
    
     .navbar-brand a {
@@ -826,8 +825,8 @@ input[type="submit"]  {
     }
 
     .lucy-image img {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .lucy-title p {
@@ -883,12 +882,23 @@ input[type="submit"]  {
 
     /*event*/
 
+    .event-container {
+        display: block;
+    }
+
+    .card {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
 }
 
     @media screen and (min-width: 801px) and (max-width: 1025px) {
 
         header {
-            height: 30vh;
+            height: 34vh;
         }
     
         .navbar-brand a {
@@ -909,8 +919,8 @@ input[type="submit"]  {
         }
     
         .lucy-image img {
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
         }
     
         .lucy-title p {
@@ -948,8 +958,9 @@ input[type="submit"]  {
         }
         
         #lucy-skeleton img {
-            width: 300px;
+            width: 100%;
             height: 350px;
+            ma
         }
 
         .about-container {
