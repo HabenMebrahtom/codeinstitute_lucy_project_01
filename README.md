@@ -3,9 +3,7 @@
 Lucy website is an informational website about the 3.2 million years old ape found in Afar region of Ethiopia. This old mummy preserved in Ethiopian national museum in Addis-Abeba. 
 The users can get a valuable information about Lucy and recent human discovery for old mummy. Additionally for those who like to visit personally or participate in the events of Ethiopian National Museum, this website can give them a direct contact address and information about the events. If users want more information, they can contact the museum through the form by writing their comments in the website.
 
-![Lucy Github page responsive performance](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/Screenshot%20.png)
-
-----------
+![Lucy responsive performance](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/Screenshot%20.png)
 
 ## Features 
 
@@ -33,6 +31,7 @@ The users can get a valuable information about Lucy and recent human discovery f
 
  
 #### Main Section 
+
   * Main Page
     - In the main page the main section contains the page of Lucy skeletion image in the left and some description about Lucy at the right.
     -At the bottom of the description there is an explore link that links to national georgraphy webpage written about Lucy.
@@ -84,7 +83,8 @@ The users can get a valuable information about Lucy and recent human discovery f
   * CSS 
     - No error has found when passing official CSS (jgsaw) validator.
 
-  *Accessibility 
+  * Accessibility 
+
     - I confirmed that all the colors and fonts are easily readable by running it through lighthouse devtools.
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/index-seo.png)
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-seo.png)
@@ -92,26 +92,29 @@ The users can get a valuable information about Lucy and recent human discovery f
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/contact-seo.png)
 
 
-  ## Unfixed Bugs
+## Unfixed Bugs
 
-    - There is no unfixed bugs.
+  - There is no unfixed bugs.
 
-  ## Deployment 
+## Deployment 
     
-    * This site has deployed to Github pages. The steps to deploy are as follows.
-      - In the Github repository navigate to setting tab.
-      - In the left side under code and animation list, navigate to pages tab.
-      - From the source selection dropdown menu, and then select the master branch. 
-      - After the master branch has selected, it generate the link for completed website.
+  * This site has deployed to Github pages. The steps to deploy are as follows.
+    - In the Github repository navigate to setting tab.
+    - In the left side under code and animation list, navigate to pages tab.
+    - From the source selection dropdown menu, and then select the master branch. 
+    - After the master branch has selected, it generate the link for completed website.
     
-    The link for Lucy website can be found here: [Lucy](https://habenmebrahtom.github.io/codeinstitute_lucy_project_01/)
+The link for Lucy website can be found here: [Lucy](https://habenmebrahtom.github.io/codeinstitute_lucy_project_01/)
 
-  ## Credits
+## Credits
    
-    #### Content
-      - The text content of the website is from [National Geographic](https://www.nationalgeographic.com/) and [wikipedia](https://www.wikipedia.org/). 
+#### Content
 
-    #### Media 
-      - All the pictures are taken from Wikipedia [wikipedia](https://www.wikipedia.org/) and Pexels [pexels](https://www.pexels.com/)
+   - The text content of the website is from [National Geographic](https://www.nationalgeographic.com/) and [wikipedia](https://www.wikipedia.org/). 
+
+
+#### Media 
+
+    - All the pictures are taken from Wikipedia [wikipedia](https://www.wikipedia.org/) and Pexels [pexels](https://www.pexels.com/)
   
 
