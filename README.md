@@ -86,6 +86,7 @@ The users can get a valuable information about Lucy and recent human discovery f
   * Accessibility 
 
     - I confirmed that all the colors and fonts are easily readable by running it through lighthouse devtools.
+    
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/index-seo.png)
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-seo.png)
     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/event-seo.png)
@@ -110,11 +111,10 @@ The link for Lucy website can be found here: [Lucy](https://habenmebrahtom.githu
    
 #### Content
 
-   - The text content of the website is from [National Geographic](https://www.nationalgeographic.com/) and [wikipedia](https://www.wikipedia.org/). 
-
+   - The text content of the website is from [National Geographic](https://www.nationalgeographic.com/) and [wikipedia](https://www.wikipedia.org/) 
 
 #### Media 
 
-    - All the pictures are taken from Wikipedia [wikipedia](https://www.wikipedia.org/) and Pexels [pexels](https://www.pexels.com/)
+  - All the pictures are taken from Wikipedia [wikipedia](https://www.wikipedia.org/) and Pexels [pexels](https://www.pexels.com/)
   
 
