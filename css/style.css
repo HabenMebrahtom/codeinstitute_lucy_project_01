@@ -397,6 +397,14 @@ fieldset {
 textarea {
     width: 90%;
 }
+
+input[type="text"], input[type="number"], input[type="email"], textarea {
+    background-color: rgb(239, 232, 232);
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
  
 input[type="submit"]  {
     font-size: 20px;
@@ -864,7 +872,7 @@ input[type="submit"]  {
     }
 
     /* about */
-    .main-about, .main-about, .main-contact {
+    .main-about, .main-event, .main-contact {
         font-size: 28px;
         height: 100px;
         margin-top: 5%;
