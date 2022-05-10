@@ -645,6 +645,7 @@ input[type="submit"]  {
     .main-about, .main-event, .main-contact {
         font-size: 18px;
         height: 70px;
+        margin-top: 3%;
         text-align: center;
     }
 
@@ -954,7 +955,6 @@ input[type="submit"]  {
         #lucy-skeleton img {
             width: 100%;
             height: 350px;
-            ma
         }
 
         .about-container {
