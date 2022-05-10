@@ -866,7 +866,8 @@ input[type="submit"]  {
     /* about */
     .main-about, .main-about, .main-contact {
         font-size: 28px;
-        height: 150px;
+        height: 100px;
+        margin-top: 5%;
         text-align: center;
     }
     
