@@ -55,7 +55,7 @@ header {
 
 .nav-list {
     background-color: rgba(0, 0, 0, 0.5);
-    color: whiite;
+    color: white;
     width: 70%;
     height: 80px;
     display: flex;
@@ -949,6 +949,7 @@ input[type="submit"]  {
         .main-about, .main-event, .main-contact {
             font-size: 20px;
             height: 100px;
+            margin-top: 10%;
             text-align: center;
         }
         
@@ -959,6 +960,26 @@ input[type="submit"]  {
 
         .about-container {
             padding-bottom: 160px;
+        }
+
+        /*events*/
+
+        .event-container {
+            display: block;
+        }
+
+        .card {
+            width: 70%;
+            margin: 20px auto;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 22px;
+            margin-bottom: 10px;
         }
     
     }
