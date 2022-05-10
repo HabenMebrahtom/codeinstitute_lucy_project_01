@@ -1,13 +1,13 @@
-const open = document.getElementById('open');
-const close = document.getElementById('close'); 
+const openIcon = document.getElementById('open');
+const closeIcon = document.getElementById('close'); 
 const sidebar = document.getElementById('sidebar-container');
 
 
-open.onclick = () => {
+openIcon.onclick = function() {
     sidebar.style.display = 'block';
 
-}
+};
 
-close.onclick = () => {
-    sidebar.style.display = 'none'
-}
+closeIcon.onclick = function() {
+    sidebar.style.display = 'none';
+};
