@@ -71,9 +71,8 @@ The users can get a valuable information about Lucy and recent human discovery f
 
 ## Bugs
 
-
-
-
+- I wrote the media query screen width only between 480px and 768px, but the image sizes become larger in less than 320px width mobile devices. So I rewrite the media query and divided to different sizes like less than 320px, 320px to 480px, 480px to 600px, 600px to 800px, 800px to 1024px and above. 
+-The media List couldn't fit the screen size in mobile size, so I use basic JavaScript to show and hide the sidebar of the navigation out of the course requirement.
 
 ## Validator Testing 
  
