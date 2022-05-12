@@ -1,7 +1,7 @@
 # Lucy Website
 
 Lucy website is an informational website about the 3.2 million years old ape found in Afar region of Ethiopia. This old mummy preserved in Ethiopian national museum in Addis-Abeba. 
-The users can get a valuable information about Lucy and recent human discovery for old mummy. Additionally for those who like to visit personally or participate in the events of Ethiopian National Museum, this website can give them a direct contact address and information about the events. If users want more information, they can contact the museum through the form by writing their comments in the website.
+The users can get a valuable information about Lucy and recent human discovery for old mummy. Additionally for those who like to visit personally or participate in the events of Ethiopian National Museum, this website can give them a direct contact address and information about the events. If users want more information, they can contact the museum through the adress and telephone.
 
 ![Lucy responsive performance](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/Screenshot%20.png)
 
@@ -36,42 +36,42 @@ The users can get a valuable information about Lucy and recent human discovery f
     - In the main page the main section contains the page of Lucy skeletion image in the left and some description about Lucy at the right.
     -At the bottom of the description there is an explore link that links to national georgraphy webpage written about Lucy.
 
-      ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/section.png) 
+      ![The main section of the home page](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/section.png) 
     
   * About page 
     - In about page the main section shows the image of Lucy skeleton at the right and details description about Lucy. 
-      ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-section.png) 
+      ![The image and description about Lucy](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-section.png) 
 
   * Event page
     - In the event section it shows two cards about lecture events conduct by the Ethiopian National Museum. 
     - At the bottom of the card there is book buttom which links to contact page booking form. The user can click and book to get a place at the event.
 
-    ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/events-card.png) 
+    ![The event section](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/events-card.png) 
 
   * Contact Us page 
     - In the contact page it shows the the picture of the museum and contact adress and telephone.
     -This section shows a booking form linked from event section. A user can enter his full name, email,  telephone and message to send to the museum.
 
-     ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/adress.png) 
-      ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/form.png) 
+     ![The adress and telephone of the museum](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/adress.png) 
+      ![The contact form](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/form.png) 
    
 #### footer 
   
   - The footer shows the Lucy name logo in the left and in the right side there is icons of social media like facebook, instagram and twitter.
   - The social media icons link direct the user to the account of the museum in respective social media account.
 
+ ![The footer of the pages](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/footer.png)
 
 ## Testing 
   - I have tested this page in different browsers like Chrome, Firefox, Opera and Microsoft Edge and it works.
   - This project is responsive and functions in all standard screen sizes by testing in chrome divtools.
   - All the content of project  accessible and the text is readable for the users. 
   - The form required in enteries in every input field. 
-  - All link and submitt buttons works perfectly.
-
+  - All link and submit buttons works perfectly.
 
 ## Bugs
 
-- I wrote the media query screen width only between 480px and 768px, but the image sizes become larger in less than 320px width mobile devices. So I rewrite the media query and divided to different sizes like less than 320px, 320px to 480px, 480px to 600px, 600px to 800px, 800px to 1024px and above. 
+- I wrote the media query screen width only between 480px and 768px, but some images has larger than the screen width like in mobile with less than 320px width. So I rewrite the media query and divided to different sizes like less than 320px, 320px to 480px, 480px to 600px, 600px to 800px, 800px to 1024px and above. 
 -The media List couldn't fit the screen size in mobile size, so I use basic JavaScript to show and hide the sidebar of the navigation out of the course requirement.
 
 ## Validator Testing 
@@ -82,14 +82,17 @@ The users can get a valuable information about Lucy and recent human discovery f
   * CSS 
     - No error has found when passing official CSS (jgsaw) validator.
 
+    *JavaScript
+    - No error has found when passsed the [JavaScript Validator](https://beautifytools.com/javascript-validator.php)
+
   * Accessibility 
 
     - I confirmed that all the colors and fonts are easily readable by running it through lighthouse devtools.
     
-    ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/index-seo.png)
-    ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-seo.png)
-    ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/event-seo.png)
-    ![Navigation Mobile Show](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/contact-seo.png)
+    ![Index](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/index-seo.png)
+    ![Main](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/about-seo.png)
+    ![Event](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/event-seo.png)
+    ![Contact](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/contact-seo.png)
 
 
 ## Unfixed Bugs
