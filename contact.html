@@ -68,18 +68,24 @@
             <form action="#">
                 <h3>Book for the events</h3>
                 <fieldset>
-                    
-                    <div>
-                        <input type="text" name="full_name" id="full-name" class="input-field" placeholder="Full Name" required>
+                    <div class="name">
+                        <div>
+                            <input type="text" name="first_name" id="first-name" class="input-field" placeholder="First Name" required>
+                        </div>
+                        <div>
+                            <input type="text" name="last_name" id="last-name" class="input-field" placeholder="Last Name" required>   
+                        </div>
+                    </div>
+                    <div class="email-address">
+                        <div>
+                            <input type="email" name="email" id="email" class="input-field" placeholder="E-mail" required>
+                        </div>
+                        <div> 
+                            <input type="number" name="telephone" id="telephone" class="input-field" placeholder="Your telephone number" required>
+                        </div>
                     </div>
                     <div>
-                        <input type="email" name="email" id="email" class="input-field" placeholder="E-mail" required>
-                    </div>
-                    <div> 
-                        <input type="number" name="telephone" id="telephone" class="input-field" placeholder="Your telephone number" required>
-                    </div>
-                    <div>
-                        <textarea name="comments" id="comment" cols="30" rows="10" placeholder="Write your toughts here ..." required></textarea>
+                        <textarea name="comments" id="comment" cols="30" rows="5" placeholder="Write your toughts here ..." required></textarea>
                     </div>
                 </fieldset>
                 <div class="submit-btn">
