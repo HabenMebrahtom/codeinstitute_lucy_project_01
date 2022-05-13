@@ -376,27 +376,32 @@ form h3 {
     font-family: 'Indie Flower',
     cursive;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 fieldset {
     border: none;
 }
 
-.full-name {
-    display: inline;
-    width: 90%;
-    margin: 10px auto;
+.name, .email-address {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.name > div, .email-address > div {
+  width: 50%;
+  margin: auto;
 }
 
 .input-field {
-    width: 90%;
+    width: 95%;
     height: 40px;
     margin: 10px auto;
 }
 
 textarea {
-    width: 90%;
+    width: 98%;
 }
 
 input[type="text"], input[type="number"], input[type="email"], textarea {
@@ -409,12 +414,16 @@ input[type="text"], input[type="number"], input[type="email"], textarea {
  
 input[type="submit"]  {
     font-size: 20px;
-    font-weight: 500;
-    width: 100px;
+    font-weight: 700;
+    width: 90px;
     height: 50px;
     border: none;
     border-radius: 5px;
     background-color: orange;
+}
+
+.submit-btn {
+    margin: 20px auto
 }
 
 @media only screen and (max-width: 320px) {
@@ -553,6 +562,15 @@ input[type="submit"]  {
         
     }
 
+    .name, .email-address {
+        display: block;
+        margin: auto;
+    }
+    
+    .name > div, .email-address > div {
+       width: 100%;
+    }
+
 
 }
 
@@ -647,7 +665,7 @@ input[type="submit"]  {
     /* about */
     .main-about, .main-event, .main-contact {
         font-size: 20px;
-        height: 100px;
+        height: 70px;
         margin-top: 3%;
         text-align: center;
     }
@@ -693,6 +711,15 @@ input[type="submit"]  {
 
     form h3 {
         font-size: 20px;
+    }
+
+    .name, .email-address {
+        display: block;
+        margin: auto;
+    }
+    
+    .name > div, .email-address > div {
+       width: 100%;
     }
 }
 
@@ -786,6 +813,18 @@ input[type="submit"]  {
         font-size: 30px;
         font-weight: 300;
         margin-left: 20px;
+    }
+
+
+    /*contact*/
+
+    .name, .email-address {
+        display: block;
+        margin: auto;
+    }
+    
+    .name > div, .email-address > div {
+       width: 100%;
     }
 }
 
