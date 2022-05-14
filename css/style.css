@@ -145,8 +145,7 @@ header {
 
 .container {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 160px;
+    padding: 5%;
 }
 
 
@@ -265,7 +264,7 @@ footer i:hover {
 }
 
 .about-container {
-    padding: 50px 40px 160px 40px;
+    padding: 5%;
     clear: both;
     height: 100%;
 }
@@ -298,7 +297,7 @@ footer i:hover {
 /* event */
 
 .event-container {
-    padding: 160px 5% 160px 5%;
+    padding: 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -342,21 +341,31 @@ footer i:hover {
 /*contact*/
 
 .visit-container {
-    padding: 50px 40px 160px 40px;
+    padding: 5%;
 }
 
 .museum-img img{
     width: 300px;
+    margin-right: 20px;
+
 }
+
 
 .address-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .address p {
     margin-bottom: 20px;
+}
+
+.address i {
+    font-size: 18px;
+    font-weight: 700;
+    color: orange;
+    margin-right: 10px;
 }
 
 form {
@@ -472,6 +481,10 @@ input[type="submit"]  {
        padding-top: 20px;
    }
 
+   .container .about-container .event-container .visit-container {
+       padding-bottom: 160px;
+   }
+
    .image-border {
        width: 250px;
        height: 300px;
@@ -512,9 +525,7 @@ input[type="submit"]  {
        text-align: center;
    }
 
-   .about-container {
-      padding-bottom: 160px;
-   }
+  
 
     #lucy-skeleton  {
         width: 250px;
@@ -531,9 +542,8 @@ input[type="submit"]  {
 
     /*event*/
 
-     .event-container {
+     .event-container .address-container {
          display: block;
-         padding: 5% 5% 160px 5%;
      }
 
      .card {
@@ -543,9 +553,6 @@ input[type="submit"]  {
 
    /*contact */
 
-    .visit-container {
-        padding: 5% 5% 160px 5%;
-    }
 
     .museum-img img {
         width: 100%;
@@ -556,10 +563,6 @@ input[type="submit"]  {
         width: 90%;
     }
 
-    .address-container {
-        display: block;
-        
-    }
 
     .name, .email-address {
         display: block;
@@ -627,6 +630,10 @@ input[type="submit"]  {
     .container {
         display: block;
         padding-top: 30px;
+    }
+
+    .container .about-container .event-container .visit-container {
+        padding-bottom: 160px;
     }
     
     .image-border {
@@ -703,11 +710,6 @@ input[type="submit"]  {
         font-size: 18px;
     }
 
-    .address i {
-        font-size: 22px;
-        font-weight: 900;
-    }
-
     fieldset {
         width: 90%;
     }
@@ -760,7 +762,7 @@ input[type="submit"]  {
         z-index: 2;
     }
 
-    .main-container {
+    .main-container .container {
         display: block;
     }
 
@@ -782,8 +784,8 @@ input[type="submit"]  {
         padding-right: 5%;
     }
 
-    .container {
-        display: block;
+    .container .about-container .event-container .visit-container {
+        padding-bottom: 160px;
     }
 
     .image-border {
@@ -858,7 +860,7 @@ input[type="submit"]  {
         z-index: 2;
     }
 
-    .main-container {
+    .main-container .container .event-container{
         display: block;
     }
 
@@ -878,8 +880,8 @@ input[type="submit"]  {
         font-size: 26px;
     }
 
-    .container {
-        display: block;
+    .container .about-container .event-container .visit-container {
+        padding-bottom: 160px;
     }
 
     .image-border {
@@ -928,10 +930,6 @@ input[type="submit"]  {
 
     /*event*/
 
-    .event-container {
-        display: block;
-    }
-
     .card {
         width: 80%;
         margin-left: auto;
@@ -957,7 +955,7 @@ input[type="submit"]  {
         }
     
     
-        .main-container {
+        .container .main-container  .event-container {
             display: block;
         }
     
@@ -977,8 +975,8 @@ input[type="submit"]  {
             font-size: 26px;
         }
     
-        .container {
-            display: block;
+        .container .about-container .event-container .visit-container {
+            padding-bottom: 160px;
         }
     
         .image-border {
@@ -1013,16 +1011,7 @@ input[type="submit"]  {
             height: 350px;
         }
 
-        .about-container {
-            padding-bottom: 160px;
-        }
-
         /*events*/
-
-        .event-container {
-            display: block;
-        }
-
         .card {
             width: 70%;
             margin: 20px auto;
