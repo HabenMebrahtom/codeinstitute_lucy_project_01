@@ -693,6 +693,10 @@ input[type="submit"]  {
 
     /*contact */
 
+    .museum-img img {
+        width: 100%;
+    }
+
     .address-container {
         display: block;
     }
@@ -996,7 +1000,7 @@ input[type="submit"]  {
          .container {
              display: block;
          }
-         
+
         .container-body p {
             font-size: 30px;
         }
