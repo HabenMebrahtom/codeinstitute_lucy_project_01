@@ -525,8 +525,6 @@ input[type="submit"]  {
        text-align: center;
    }
 
-  
-
     #lucy-skeleton  {
         width: 250px;
         height: 300px;
@@ -542,7 +540,7 @@ input[type="submit"]  {
 
     /*event*/
 
-     .event-container .address-container {
+     .event-container {
          display: block;
      }
 
@@ -552,7 +550,9 @@ input[type="submit"]  {
      }
 
    /*contact */
-
+   .address-container {
+       display: block;
+   }
 
     .museum-img img {
         width: 100%;
@@ -683,7 +683,6 @@ input[type="submit"]  {
     /*event*/
     .event-container {
         display: block;
-        padding-top: 5%;
     }
 
     .card {
@@ -693,9 +692,9 @@ input[type="submit"]  {
 
 
     /*contact */
+
     .address-container {
         display: block;
-    
     }
 
     .address {
@@ -759,7 +758,7 @@ input[type="submit"]  {
         z-index: 2;
     }
 
-    .main-container .container {
+    .main-container  {
         display: block;
     }
 
@@ -784,6 +783,10 @@ input[type="submit"]  {
     .image-border {
         width: 400px;
         height: 450px;
+    }
+
+    .container {
+        display: block;
     }
 
     .container-body h4 {
@@ -853,7 +856,7 @@ input[type="submit"]  {
         z-index: 2;
     }
 
-    .main-container .container .event-container{
+    .main-container {
         display: block;
     }
 
@@ -878,6 +881,10 @@ input[type="submit"]  {
     .image-border {
         width: 450px;
         height: 500px;
+    }
+
+    .container {
+        display: block;
     }
 
     .container-body h4 {
@@ -921,6 +928,10 @@ input[type="submit"]  {
 
     /*event*/
 
+    .event-container {
+        display: block;
+    }
+
     .card {
         width: 80%;
         margin-left: auto;
@@ -929,6 +940,7 @@ input[type="submit"]  {
     }
 
     /*contact*/
+
     fieldset {
         width: 70%;
     }
@@ -984,6 +996,7 @@ input[type="submit"]  {
          .container {
              display: block;
          }
+         
         .container-body p {
             font-size: 30px;
         }
