@@ -145,8 +145,10 @@ header {
 
 .container {
     display: flex;
-    padding: 5%;
+    align-items: center;
+    padding: 5% 5% 160px 5%;
 }
+
 
 
 .container-image {
@@ -242,7 +244,9 @@ footer i:hover {
 
 
 /* About Page */
-
+.about-container {
+    padding: 5% 5% 160px 5%;
+}
 .white-text {
     color: white;
 }
@@ -297,7 +301,7 @@ footer i:hover {
 /* event */
 
 .event-container {
-    padding: 5%;
+    padding: 5% 5% 160px 5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -341,7 +345,7 @@ footer i:hover {
 /*contact*/
 
 .visit-container {
-    padding: 5%;
+    padding: 5% 5% 160px 5%;
 }
 
 .museum-img img{
@@ -880,9 +884,7 @@ input[type="submit"]  {
         font-size: 26px;
     }
 
-    .container .about-container .event-container .visit-container {
-        padding-bottom: 160px;
-    }
+   
 
     .image-border {
         width: 450px;
