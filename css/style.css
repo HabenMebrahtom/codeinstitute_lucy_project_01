@@ -141,15 +141,11 @@ header {
     font-size: 26px;
 }
 
-
-
 .container {
     display: flex;
     align-items: center;
     padding: 5% 5% 160px 5%;
 }
-
-
 
 .container-image {
 flex: 1;
@@ -486,10 +482,13 @@ input[type="submit"]  {
        padding-top: 20px;
    }
 
-
    .image-border {
        width: 250px;
        height: 300px;
+   }
+
+   .container-body {
+       padding: 20px 5px;
    }
 
    .container-body h4 {
@@ -636,6 +635,10 @@ input[type="submit"]  {
     .image-border {
         width: 300px;
         height: 350px;
+    }
+
+    .container-body {
+        padding: 20px 5px;
     }
     
     .container-body h4 {
