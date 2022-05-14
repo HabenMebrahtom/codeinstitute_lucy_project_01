@@ -268,7 +268,7 @@ footer i:hover {
 }
 
 .about-container {
-    padding: 5%;
+    padding: 5% 5% 160px 5%;
     clear: both;
     height: 100%;
 }
@@ -324,7 +324,7 @@ footer i:hover {
 
 .card-body {
     text-align: center;
-    margin: 10px auto;
+    margin: auto;
     padding: 10px;
 }
 
@@ -485,9 +485,6 @@ input[type="submit"]  {
        padding-top: 20px;
    }
 
-   .container .about-container .event-container .visit-container {
-       padding-bottom: 160px;
-   }
 
    .image-border {
        width: 250px;
@@ -512,8 +509,6 @@ input[type="submit"]  {
        width: 60px;
        height: 35px;
    }
-
-    
 
    footer i {
        font-size: 18px;
@@ -636,9 +631,6 @@ input[type="submit"]  {
         padding-top: 30px;
     }
 
-    .container .about-container .event-container .visit-container {
-        padding-bottom: 160px;
-    }
     
     .image-border {
         width: 300px;
@@ -786,10 +778,6 @@ input[type="submit"]  {
         font-size: 20px;
         padding-left: 5%;
         padding-right: 5%;
-    }
-
-    .container .about-container .event-container .visit-container {
-        padding-bottom: 160px;
     }
 
     .image-border {
@@ -957,7 +945,7 @@ input[type="submit"]  {
         }
     
     
-        .container .main-container  .event-container {
+      .main-container {
             display: block;
         }
     
@@ -977,9 +965,6 @@ input[type="submit"]  {
             font-size: 26px;
         }
     
-        .container .about-container .event-container .visit-container {
-            padding-bottom: 160px;
-        }
     
         .image-border {
             width: 450px;
@@ -995,6 +980,9 @@ input[type="submit"]  {
             font-weight: 900;
         }
     
+         .container {
+             display: block;
+         }
         .container-body p {
             font-size: 30px;
         }
@@ -1014,6 +1002,11 @@ input[type="submit"]  {
         }
 
         /*events*/
+
+        .event-container {
+            display: block;
+        }
+
         .card {
             width: 70%;
             margin: 20px auto;
