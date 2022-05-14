@@ -359,12 +359,11 @@ footer i:hover {
     margin-bottom: 20px;
 }
 
-
-.form {
-    margin: 50px auto;
-    width: 60%;
+form {
     text-align: center;
+    margin-top: 50px;
 }
+
 
 form h3 {
     font-family: 'Indie Flower',
@@ -375,6 +374,8 @@ form h3 {
 
 fieldset {
     border: none;
+    margin: auto;
+    width: 60%;
 }
 
 .name, .email-address {
@@ -551,7 +552,7 @@ input[type="submit"]  {
         margin-bottom: 20px;
     }
 
-    .form {
+    fieldset {
         width: 90%;
     }
 
@@ -707,8 +708,8 @@ input[type="submit"]  {
         font-weight: 900;
     }
 
-    .form {
-        width: 100%;
+    fieldset {
+        width: 90%;
     }
 
     form h3 {
@@ -820,7 +821,7 @@ input[type="submit"]  {
 
     /*contact*/
 
-    .form {
+    fieldset {
         width: 90%;
     }
 
@@ -938,6 +939,10 @@ input[type="submit"]  {
         margin-bottom: 20px;
     }
 
+    /*contact*/
+    fieldset {
+        width: 70%;
+    }
 }
 
     @media screen and (min-width: 801px) and (max-width: 1025px) {
