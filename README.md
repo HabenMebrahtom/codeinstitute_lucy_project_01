@@ -52,7 +52,7 @@ The users can get a valuable information about Lucy and recent human discovery f
     - In the contact page it shows the the picture of the museum and contact adress and telephone.
     -This section shows a booking form linked from event section. A user can enter his full name, email,  telephone and message to send to the museum.
 
-     ![The adress and telephone of the museum](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/adress.png) 
+     ![The adress and telephone of the museum](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/address.png) 
       ![The contact form](https://github.com/HabenMebrahtom/codeinstitute_lucy_project_01/blob/main/designs/form.png) 
    
 #### footer 
