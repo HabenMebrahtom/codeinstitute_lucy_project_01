@@ -258,7 +258,7 @@ footer i:hover {
 .main-about, .main-contact, .main-event {
     font-size: 40px;
     width: 100%;
-    height: 150px;
+    height: 100px;
     margin-top: 5%;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -530,7 +530,7 @@ input[type="submit"]  {
    }
 
     #lucy-skeleton  {
-        width: 250px;
+        width: 280px;
         height: 300px;
         float: left;
         margin-bottom: 20px;
@@ -737,6 +737,10 @@ input[type="submit"]  {
 }
 
 @media screen and (min-width: 480px) and (max-width: 600px) {
+    header {
+      height: 36vh;
+    }
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -828,8 +832,38 @@ input[type="submit"]  {
         margin-left: 20px;
     }
 
+    /*about*/
+    .main-about, .main-event, .main-contact {
+        font-size: 20px;
+        height: 70px;
+        margin-top: 3%;
+        text-align: center;
+    }
+
+
+    /*event*/
+    .event-container {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
 
     /*contact*/
+
+    .address-container {
+        display: block;
+        margin: auto;
+        width: 70%;
+    }
+
+    .address {
+        margin-top: 20px;
+    }
 
     fieldset {
         width: 90%;
@@ -887,8 +921,6 @@ input[type="submit"]  {
     .lucy-title p {
         font-size: 26px;
     }
-
-   
 
     .image-border {
         width: 450px;
@@ -958,93 +990,92 @@ input[type="submit"]  {
     }
 }
 
-    @media screen and (min-width: 801px) and (max-width: 1025px) {
+@media screen and (min-width: 801px) and (max-width: 1023px) {
 
-        header {
-            height: 34vh;
-        }
-    
-        .navbar-brand a {
-            font-size: 48px;
-            padding-left: 5%;
-        }
-    
-    
-      .main-container {
-            display: block;
-        }
-    
-        .lucy-image {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 10PX;
-        }
-    
-        .lucy-image img {
-            width: 200px;
-            height: 200px;
-        }
-    
-        .lucy-title p {
-            font-size: 26px;
-        }
-    
-    
-        .image-border {
-            width: 450px;
-            height: 500px;
-        }
-    
-        .container-body h4 {
-            font-size: 40px;
-            text-align: center;
-        }
-    
-        .bold-text {
-            font-weight: 900;
-        }
-    
-         .container {
-             display: block;
-         }
-
-        .container-body p {
-            font-size: 30px;
-        }
-
-
-        /* about */
-        .main-about, .main-event, .main-contact {
-            font-size: 20px;
-            height: 100px;
-            margin-top: 10%;
-            text-align: center;
-        }
-        
-        #lucy-skeleton img {
-            width: 100%;
-            height: 350px;
-        }
-
-        /*events*/
-
-        .event-container {
-            display: block;
-        }
-
-        .card {
-            width: 70%;
-            margin: 20px auto;
-        }
-
-        .card-body {
-            padding: 20px;
-        }
-
-        .card-title {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-    
+    header {
+        height: 40vh;
     }
+
+    .navbar-brand a {
+        font-size: 48px;
+        padding-left: 5%;
+    }
+
+
+    .main-container {
+        display: block;
+    }
+
+    .lucy-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10PX;
+    }
+
+    .lucy-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .lucy-title p {
+        font-size: 26px;
+    }
+
+
+    .image-border {
+        width: 450px;
+        height: 500px;
+    }
+
+    .container-body h4 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .bold-text {
+        font-weight: 900;
+    }
+
+        .container {
+            display: block;
+        }
+
+    .container-body p {
+        font-size: 30px;
+    }
+
+
+    /* about */
+    .main-about, .main-event, .main-contact {
+        font-size: 20px;
+        height: 70px;
+        margin-top: 3%;
+        text-align: center;
+    }
+    
+    #lucy-skeleton img {
+        width: 100%;
+        height: 350px;
+    }
+
+    /*events*/
+    .event-container {
+        display: block;
+    }
+
+    .card {
+        width: 400px;
+        margin: 20px auto;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+}
