@@ -13,7 +13,6 @@
 
 body {
     min-height: 100vh;
-    min-height: 100vw;
     position: relative;
 }
 
@@ -68,10 +67,10 @@ header {
 .nav-list a {
     font-family: 'Indie Flower',
     cursive;
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     text-decoration: none;
-    font-weight: 900;
+    font-weight: 700;
     height: 70%;
     padding-top: 30px;
 }
@@ -142,8 +141,9 @@ header {
 
 .container {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 5% 5% 160px 5%;
+    padding: 5% 5% 200px 5%;
 }
 
 .container-image {
@@ -246,6 +246,7 @@ footer i:hover {
 .about-container {
     padding: 5% 5% 160px 5%;
 }
+
 .white-text {
     color: white;
 }
