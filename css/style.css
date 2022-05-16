@@ -55,7 +55,6 @@ header {
 
 .nav-list {
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
     width: 70%;
     height: 80px;
     display: flex;
@@ -69,10 +68,10 @@ header {
 .nav-list a {
     font-family: 'Indie Flower',
     cursive;
-    font-size: 26px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 900;
     height: 70%;
     padding-top: 30px;
 }
@@ -213,7 +212,6 @@ footer {
     height: 150px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
     position: absolute;
     bottom: 0;
 
@@ -224,7 +222,12 @@ footer {
 
 footer .navbar-brand a {
    font-size: 30px;
+   color: white
+}
 
+footer a  {
+    text-decoration: none;
+    color: white;
 }
 
 footer i {
