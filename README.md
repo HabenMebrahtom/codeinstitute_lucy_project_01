@@ -82,7 +82,7 @@ The users can get a valuable information about Lucy and recent human discovery f
   * CSS 
     - No error has found when passing official CSS (jgsaw) validator.
 
-    *JavaScript
+  * JavaScript
     - No error has found when passsed the [JavaScript Validator](https://beautifytools.com/javascript-validator.php)
 
   * Accessibility 
